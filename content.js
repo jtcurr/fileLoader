@@ -1,5 +1,4 @@
 function subRangeFinder(range, priceArray) {
-	var up;
 	var down;
 	var tempArray;
 	for(var i = 0; i <= priceArray.length-range; i++) {
