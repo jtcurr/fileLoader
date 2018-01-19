@@ -2,8 +2,6 @@ function subRangeFinder(range, priceArray) {
 	var down;
 	var tempArray;
 	for(var i = 0; i <= priceArray.length-range; i++) {
-		up = 0;
-		down = 0;
 		tempArray = priceArray.slice(i, i+range);
 		console.log(tempArray);
 		for(var x = 0; x < tempArray.length; x++) {
