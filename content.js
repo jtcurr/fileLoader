@@ -27,8 +27,6 @@ function fileRetriever(event) {
 		var averageHomeSalePriceArray = text.slice(2, text.length);
 		subRangeFinder(windowRange, averageHomeSalePriceArray);
 	};
-
-	fileReader.readAsText(input.files[0]);
 }
 
 function combinations(x , y) {
