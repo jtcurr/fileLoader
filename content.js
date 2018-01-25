@@ -10,7 +10,6 @@ function subRangeFinder(range, priceArray) {
 				up++;
 			}
 		}
-		console.log(combinations(up, down));
 	}
 }
 
