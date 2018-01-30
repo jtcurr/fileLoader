@@ -1,7 +1,6 @@
 function subRangeFinder(range, priceArray) {
 	for(var i = 0; i <= priceArray.length-range; i++) {
 		tempArray = priceArray.slice(i, i+range);
-		console.log(tempArray);
 		for(var x = 0; x < tempArray.length; x++) {
 			if(tempArray[x] > tempArray[x+1]) {
 				down++;
